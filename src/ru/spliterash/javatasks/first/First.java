@@ -1,4 +1,4 @@
-package ru.spliterash.javatasks;
+package ru.spliterash.javatasks.first;
 
 /**
  * Необходимо вывести на экран числа от 1 до 5. На экране должно быть:
