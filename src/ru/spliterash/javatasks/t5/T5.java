@@ -6,7 +6,7 @@ package ru.spliterash.javatasks.t5;
  */
 public class T5 {
     public static void main(String[] args) {
-        for (int i = 0; i < 15; i++) {
+        for (int i = 1; i < 15; i++) {
             System.out.println((i * 7));
         }
     }
