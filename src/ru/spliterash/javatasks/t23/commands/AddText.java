@@ -14,6 +14,6 @@ public class AddText extends AbstractCommand {
 
     @Override
     protected void execute() {
-        builder.getRaw().append(text);
+        builder.appendRaw(text);
     }
 }
