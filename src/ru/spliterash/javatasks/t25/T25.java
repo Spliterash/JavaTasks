@@ -22,13 +22,11 @@ public class T25 {
     }
 
     public static <T> T[] filter(Class<T> clazz, T[] array, Predicate<T> filter) {
+        //noinspection unchecked
         return Arrays
                 .stream(array)
                 .filter(Objects::nonNull)
                 .filter(filter)
-                .toArray(value -> {
-                    //noinspection unchecked
-                    return (T[]) Array.newInstance(clazz, value);
-                });
+                .toArray(value -> (T[]) Array.newInstance(clazz, value));
     }
 }
