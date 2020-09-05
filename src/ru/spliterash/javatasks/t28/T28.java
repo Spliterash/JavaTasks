@@ -1,5 +1,8 @@
 package ru.spliterash.javatasks.t28;
 
+/**
+ * Напишите итератор по двумерному массиву.
+ */
 public class T28 {
     public static void main(String[] args) {
         Integer[][] array = new Integer[][]{

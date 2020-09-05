@@ -2,9 +2,6 @@ package ru.spliterash.javatasks.t28;
 
 import java.util.Iterator;
 
-/**
- * Напишите итератор по двумерному массиву.
- */
 public class MultidimensionalArrayIterator<T> implements Iterator<T> {
     private final T[][] array;
     private int x = -1;
