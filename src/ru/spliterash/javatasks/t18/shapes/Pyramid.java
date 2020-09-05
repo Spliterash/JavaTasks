@@ -1,11 +1,11 @@
 package ru.spliterash.javatasks.t18.shapes;
 
-import lombok.AllArgsConstructor;
+import lombok.Value;
 import ru.spliterash.javatasks.t18.interfaces.Shape;
 
-@AllArgsConstructor
+@Value
 public class Pyramid implements Shape {
-    private final double s, h;
+    double s, h;
 
     @Override
     public double getVolume() {

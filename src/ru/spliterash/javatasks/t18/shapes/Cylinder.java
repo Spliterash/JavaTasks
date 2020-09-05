@@ -1,14 +1,12 @@
 package ru.spliterash.javatasks.t18.shapes;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Value;
 import ru.spliterash.javatasks.t18.interfaces.SolidOfRevolution;
 
-@Getter
-@AllArgsConstructor
+@Value
 public class Cylinder implements SolidOfRevolution {
-    private final double height;
-    private final double radius;
+    double height;
+    double radius;
 
     @Override
     public double getVolume() {

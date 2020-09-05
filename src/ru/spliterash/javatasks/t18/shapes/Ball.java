@@ -1,13 +1,13 @@
 package ru.spliterash.javatasks.t18.shapes;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.Value;
 import ru.spliterash.javatasks.t18.interfaces.SolidOfRevolution;
 
-@AllArgsConstructor
+@Value
 public class Ball implements SolidOfRevolution {
     @Getter
-    private final double radius;
+    double radius;
 
 
     @Override
